@@ -78,11 +78,11 @@ body {
     border-radius: 12px;
     aspect-ratio: 16 / 9;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .grid-iteminner:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 

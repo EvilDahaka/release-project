@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Головна{% endblock %}
+{% block content %}
+</body>
+
+<h>Залиште свій відгук</h>
+
+<form action="/sumbit-feedback" method="post">
+    <label for="name">Ім'я:</label><br>
+    <input type="text" id ="name" name="name" required><br><br>
+
+    <label for="email">Ваш email</label><br>
+    <input type="email" id="email" email="email" required><br><br>
+
+    <label for="message">Повідомлення</label><br>
+    <textarea id="message" name="message" required><br></textarea><br><br>
+
+    <button type="submit">Надіслати</button>
+
+</form>
+</body>
+
+{% endblock %}
+
+
